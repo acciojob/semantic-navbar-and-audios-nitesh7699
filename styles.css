@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.navbar{
+/* 	background-color:black; */
+/* 	margin-top:0px; */
+}
+
+.navbar>.box>.list{
+	display:grid;
+	grid-template-columns:repeat(3,1fr)
+}
+.box{
+	background-color:black;
+}
+
+
