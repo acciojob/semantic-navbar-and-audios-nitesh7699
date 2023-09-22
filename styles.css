@@ -12,7 +12,8 @@
 
 .navbar>.box>.list{
 	display:grid;
-	grid-template-columns:repeat(3,1fr)
+	padding:50px;
+	grid-template-columns:repeat(1,1fr)
 }
 .box{
 	background-color:black;
